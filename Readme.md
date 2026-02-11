@@ -30,12 +30,16 @@ Django REST Framework
 
 SimpleJWT (JWT Authentication)
 
+## Create env
+''' python -m venv venv
+    source venv/bin/activate '''
+
 ## Installation
 
-django-admin startproject authproject
+'''django-admin startproject authproject
 cd authproject
 python manage.py startapp accounts
-pip install djangorestframework djangorestframework-simplejwt
+pip install djangorestframework djangorestframework-simplejwt'''
 
 ## Add to settings.py:
 INSTALLED_APPS = [
